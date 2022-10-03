@@ -20,17 +20,18 @@ lijst =  [1, 2, 5, 6, 2, 1]
 # lijst[4] += 3
 # lijst[5] += 3
 
-# lengteLijst = len(lijst) # heeft als lengte 6 want er zitte 6 el
-#lengteLijst = 6
+lengteLijst = len(lijst) # heeft als lengte 6 want er zitte 6 el
 
-# for i in range(lengteLijst):
-#     lijst[i] += 3
-#     print(lijst[i])
 
-# print(lijst)
+for i in range(lengteLijst):
+    lijst[i] += 3
+    print(lijst[i])
 
-for i in range(5):
-    if i != 3:
-        print(i)
-    else:
-        print("")
+print(lijst)
+
+
+# for i in range(5):
+#     if i != 3:
+#         print(i)
+#     else:
+#         print("")
